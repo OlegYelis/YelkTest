@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YelkTest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__info">
+          <h1 class="header__title">Dashboard intro title</h1>
+          <p class="header__description">
+            Ac vulputate purus semper fusce at. Non dolor in cras.
+          </p>
+        </div>
+        <div class="header__actions">
+          <button class="button header__btn">
+            <svg class="header__icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-compare"></use>
+            </svg>
+            Compare
+          </button>
+          <button class="button current header__btn">
+            <svg class="header__icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-managers"></use>
+            </svg>
+            Managers
+          </button>
+          <button class="button header__btn">
+            <svg class="header__icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-employees"></use>
+            </svg>
+            Employees
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="small-cards">
+        <div class="container">
+          <ul class="small-cards__list list">
+            <li class="card rlq">
+              <div class="card__header">
+                <h2 class="card__title">RLQ</h2>
+                <svg class="card__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-info"></use>
+                </svg>
+              </div>
+              <div class="rlq__footer">
+                <img
+                  class="rlq__image"
+                  src="./images/wave.webp"
+                  alt="wave"
+                  width="304"
+                />
+                <p class="rlq__info">
+                  59,47<span class="rlq__percent">%</span>
+                </p>
+                <p class="rlq__members">
+                  <svg class="rlq__icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-employees"></use>
+                  </svg>
+                  56 884
+                </p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__header">
+                <h2 class="card__title">KI</h2>
+                <svg class="card__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-info"></use>
+                </svg>
+              </div>
+              <div class="ki__footer">
+                <img
+                  class="ki__image"
+                  src="./images/chart_figure.webp"
+                  alt="chart_figure"
+                  width="132"
+                />
+                <div class="ki__range">
+                  <p class="ki__txt">0</p>
+                  <p class="ki__txt">100</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__header">
+                <h2 class="card__title">MZI</h2>
+                <svg class="card__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-info"></use>
+                </svg>
+              </div>
+              <div class="mzi__footer">
+                <img src="./images/mzi_line.webp" alt="mzi_line" width="147" />
+                <div class="mzi__smiles">
+                  <img
+                    class="mzi__smile"
+                    src="./images/(.webp"
+                    alt=":("
+                    width="28"
+                  />
+                  <img
+                    class="mzi__smile"
+                    src="./images/I.webp"
+                    alt=":|"
+                    width="28"
+                  />
+                  <img
+                    class="mzi__smile"
+                    src="./images/).webp"
+                    alt=":)"
+                    width="28"
+                  />
+                </div>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__header">
+                <h2 class="card__title">Survey Topics</h2>
+                <svg class="card__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-info"></use>
+                </svg>
+              </div>
+
+              <ul class="survey__list list">
+                <li class="survey__item">
+                  <p class="survey__txt">
+                    A. Pulvinar iaculis placerat vitae dui
+                  </p>
+                </li>
+                <li class="survey__item">
+                  <p class="survey__txt">B. Massa morbi mattis lectus ornare</p>
+                </li>
+                <li class="survey__item">
+                  <p class="survey__txt">C. Diam sem vestibulum purus morbi</p>
+                </li>
+                <li class="survey__item">
+                  <p class="survey__txt">
+                    A. Pulvinar iaculis placerat vitae dui
+                  </p>
+                </li>
+                <li class="survey__item">
+                  <p class="survey__txt">B. Massa morbi mattis lectus ornare</p>
+                </li>
+                <li class="survey__item">
+                  <p class="survey__txt">C. Diam sem vestibulum purus morbi</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="large-cards">
+        <div class="container">
+          <ul class="large-cards__list list">
+            <li class="card">
+              <div class="card__header">
+                <h2 class="card__title">Survey Topics Scores</h2>
+                <svg class="card__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-info"></use>
+                </svg>
+              </div>
+
+              <div class="scores survey-scores">
+                <ul class="scores__Y list">
+                  <li class="scores__axis">5</li>
+                  <li class="scores__axis">4</li>
+                  <li class="scores__axis">3</li>
+                  <li class="scores__axis">2</li>
+                  <li class="scores__axis">1</li>
+                </ul>
+
+                <ul class="scores__X list">
+                  <li class="scores__axis">A</li>
+                  <li class="scores__axis">B</li>
+                  <li class="scores__axis">C</li>
+                  <li class="scores__axis">D</li>
+                  <li class="scores__axis">E</li>
+                  <li class="scores__axis">F</li>
+                  <li class="scores__axis">G</li>
+                  <li class="scores__axis">H</li>
+                  <li class="scores__axis">I</li>
+                  <li class="scores__axis">J</li>
+                  <li class="scores__axis">K</li>
+                  <li class="scores__axis">L</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__header">
+                <h2 class="card__title">KPs</h2>
+                <svg class="card__icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-info"></use>
+                </svg>
+              </div>
+
+              <div class="scores kps-scores">
+                <ul class="scores__Y list">
+                  <li class="scores__axis">100%</li>
+                  <li class="scores__axis">75%</li>
+                  <li class="scores__axis">50%</li>
+                  <li class="scores__axis">25%</li>
+                  <li class="scores__axis">0</li>
+                </ul>
+
+                <ul class="scores__X list">
+                  <li class="scores__axis">KP 1</li>
+                  <li class="scores__axis">KP 2</li>
+                  <li class="scores__axis">KP 3</li>
+                  <li class="scores__axis">KP 4</li>
+                  <li class="scores__axis">KP 5</li>
+                </ul>
+
+                <ul class="scores__footer list">
+                  <li class="scores__item">KP 1</li>
+                  <li class="scores__item">KP 2</li>
+                  <li class="scores__item">KP 3</li>
+                  <li class="scores__item">KP 4</li>
+                  <li class="scores__item">KP 5</li>
+                  <li class="scores__item disabled">KP 6</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
