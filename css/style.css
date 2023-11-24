@@ -94,7 +94,7 @@ img {
 /* ---------------------------- Header ---------------------------- */
 .header {
   padding-top: 64px;
-  padding-bottom: 17px;
+  padding-bottom: 16px;
 }
 
 .header .container {
@@ -182,7 +182,7 @@ img {
 /* ---------------------------- SMALL CARDS ---------------------------- */
 
 .small-cards {
-  padding: 17px 0;
+  padding: 16px 0;
 }
 
 .small-cards__list {
@@ -341,12 +341,16 @@ img {
 
 /* ---------------------------- LARGE CARDS ---------------------------- */
 
+.large-cards {
+  padding: 16px;
+}
+
 .large-cards__list {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 -16px -16px;
+  margin: -16px;
 }
 
 .large-cards .card {
