@@ -342,7 +342,7 @@ img {
 /* ---------------------------- LARGE CARDS ---------------------------- */
 
 .large-cards {
-  padding: 16px;
+  padding: 16px 0;
 }
 
 .large-cards__list {
